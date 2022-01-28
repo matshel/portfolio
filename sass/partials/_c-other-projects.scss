@@ -1,0 +1,52 @@
+/* other projects */
+.c-other-projects {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  gap: 10px 10px;
+  &__tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: $color-light-blue;
+    border-radius: 7px;
+    padding: 1rem;
+    // &:hover {
+    //   transform: translateY(-10px);
+    //   transition: all 0.25s ease;
+    // }
+  }
+  &__technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__li {
+    padding: 0.5rem;
+    color: $color-light;
+  }
+  &__diagram {
+    &-icon {
+      color: $color-lighter-blue;
+    }
+  }
+  &__heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: $color-white;
+  }
+  &__paragraph {
+    text-align: center;
+    color: $color-lighter-blue;
+    color: $color-light;
+  }
+}
+/* other projects end */

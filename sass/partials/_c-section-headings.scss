@@ -1,0 +1,18 @@
+/* section headings */
+.c-heading {
+  margin-bottom: 2rem;
+  &__h2 {
+    font-size: clamp(26px, 5vw, 48px);
+  }
+  &__number {
+    color: $color-lighter-blue;
+  }
+  &__divider {
+    @include resets;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    color: $color-lighter-blue;
+  }
+}
+/* section headings end */

@@ -1,0 +1,34 @@
+@import "./partials/variables";
+@import "./partials/mixins";
+
+html {
+  scrollbar-color: $color-light-blue $color-deep-blue;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-type-primary;
+  color: $color-white;
+  background-color: $color-deep-blue;
+  overflow-x: hidden;
+}
+
+@import "./partials/c-about";
+@import "./partials/layout";
+@import "./partials/c-button";
+@import "./partials/c-explore";
+@import "./partials/header";
+@import "./partials/c-navigation";
+@import "./partials/c-hero";
+@import "./partials/c-section-headings";
+@import "./partials/c-featured-projects";
+@import "./partials/c-contact";
+@import "./partials/c-other-projects";
+@import "./partials/footer";
+@import "./partials/media-queries";

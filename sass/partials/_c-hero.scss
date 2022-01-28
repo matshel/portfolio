@@ -1,0 +1,35 @@
+/* hero */
+.l-section--hero {
+  height: 90vh;
+}
+
+.l-container--hero {
+  width: 100%;
+  max-width: 1000px;
+  padding-bottom: 5vh;
+}
+
+.c-hero {
+  &__intro {
+    @include resets;
+  }
+  &__name {
+    @include resets;
+    font-size: $font-clamp-big;
+    font-weight: 700;
+  }
+  &__heading {
+    @include resets;
+    font-size: $font-clamp-big;
+    font-weight: 700;
+    color: $color-lighter-blue;
+    line-height: 1;
+  }
+  &__copy {
+    @include resets;
+    margin-top: 20px;
+    max-width: 500px;
+    color: $color-light;
+  }
+}
+/* hero end */

@@ -1,0 +1,12 @@
+// resets
+@mixin resets {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+// layout
+.wrapper {
+  width: 100%;
+}
+
+.l-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  min-height: 50vh;
+  margin: 0 auto;
+  //   margin-bottom: 10rem;
+}
+
+.l-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+// layout end

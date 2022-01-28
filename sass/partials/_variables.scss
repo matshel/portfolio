@@ -1,0 +1,17 @@
+// fonts
+// font type
+$font-type-primary: "Calibre", "Inter", "San Francisco", "SF Pro Text",
+  -apple-system, system-ui, sans-serif;
+
+// font size
+$font-clamp-big: clamp(40px, 8vw, 77px);
+
+// color
+// $color-deep-blue: #10162f;
+$color-deep-blue: #1b2845;
+$color-light-blue: #282e49;
+$color-lighter-blue: #8892b0;
+$color-white: #ffff;
+// $color-light: #ccd6f6;
+$color-light: #fafafa;
+$color-button: #293853;

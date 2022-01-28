@@ -1,0 +1,23 @@
+/*  contact */
+.c-contact {
+  &__get-in-touch {
+    @include resets;
+    /* mixin 1 / see hero */
+    font-size: clamp(40px, 8vw, 77px);
+    font-weight: 700;
+    color: $color-lighter-blue;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+  &__paragraph {
+    @include resets;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+  }
+  &__email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/*  contact end */
